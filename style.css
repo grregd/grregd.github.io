@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+div {
+  width: 100%;
+  display: flex;
+}
+
+a {
+  text-transform: uppercase;
+  padding: 30px;
+  width: 100%;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px 1px 10px 1px;
+  border-color: black;
+}
+
+a.current {
+  background-color: black;
+  color: white;
+}
+
+a:hover {
+  background-color: tomato;
+  color: white;
+}
+
+a.current:hover {
+    background-color: red;
+}
